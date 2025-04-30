@@ -1,4 +1,6 @@
 @import "tailwindcss"; 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 
 
 .custom-hero-gradient {
@@ -7,4 +9,8 @@
   
   .custom-gradient-bg {
   background: linear-gradient(163deg, rgba(0, 0, 0, 1) 35%, rgba(87, 82, 82, 1) 100%);
+}
+
+.font-poppins {
+  font-family: 'poppins', sans-serif;
 }

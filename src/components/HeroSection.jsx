@@ -16,7 +16,7 @@ function HeroSection() {
         <div className="flex flex-col lg:flex-row custom-gradient-bg rounded-3xl shadow-lg text-white py-10 px-6 sm:px-12 lg:px-20 mt-8 gap-10">
           {/* Text Section */}
           <div className="flex-1 order-2 lg:order-1 text-center lg:text-left">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+            <h1 className="text-3xl  sm:text-4xl lg:text-5xl font-bold leading-tight">
               Unleash the Full Potential of AI
             </h1>
             <p className="mt-4 text-base sm:text-lg">

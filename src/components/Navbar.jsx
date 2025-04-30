@@ -26,16 +26,19 @@ function Navbar() {
         <p className="hover:text-[#babeba]  cursor-pointer">Home</p>
         <HashLink
           to="#features"
-          className="hover:text-[#babeba] cursor-pointer"
+          className="hover:text-[#babeba] font-poppins cursor-pointer"
         >
           Features
         </HashLink>
-        <HashLink to="#pricing" className="hover:text-[#babeba] cursor-pointer">
+        <HashLink
+          to="#pricing"
+          className="hover:text-[#babeba] font-poppins cursor-pointer"
+        >
           Pricing
         </HashLink>
         <HashLink
           to="#testimonial"
-          className="hover:text-[#babeba] cursor-pointer"
+          className="hover:text-[#babeba] font-poppins cursor-pointer"
         >
           Testimonials
         </HashLink>
