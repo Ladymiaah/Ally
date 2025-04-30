@@ -1,0 +1,10 @@
+@import "tailwindcss"; 
+
+
+.custom-hero-gradient {
+    background: linear-gradient(163deg, rgba(134,239,172,1) 35%, rgba(255,255,255,1) 100%);
+  }
+  
+  .custom-gradient-bg {
+  background: linear-gradient(163deg, rgba(0, 0, 0, 1) 35%, rgba(87, 82, 82, 1) 100%);
+}
