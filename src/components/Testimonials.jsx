@@ -1,22 +1,26 @@
 function Testimonials() {
   return (
     <div className="px-4 sm:px-8 md:px-16 lg:px-20 mt-10">
-      <div className="flex flex-col md:flex-row md:justify-between gap-6 text-center md:text-left">
-        <h1 id="testimonial" className="text-2xl sm:text-3xl font-bold">
+      <div className="flex flex-col md:flex-row md:justify-between gap-15 text-center md:text-left">
+        <h1
+          id="testimonial"
+          className="font-poppins text-2xl sm:text-5xl font-bold"
+        >
           Testimonials
         </h1>
         <p className="text-sm sm:text-base">
-          Don't take our word for it - hear from our satisfied clients who have
-          experienced the transformative impact of our AI text tool.
+          Don't take our word for it - hear from our <br /> satisfied clients
+          who have experienced the transformative impact of our AI text tool.
         </p>
-        <p className="text-sm sm:text-base">
+        <p className="font-poppins text-sm sm:text-base">
           Learn how this powerful tool has revolutionized their work and
+          <br />
           accelerated their success.
         </p>
       </div>
 
       <div className="mt-10 flex flex-col lg:flex-row gap-6">
-        <div className="bg-[#bbf99c] rounded-2xl py-6 px-6 sm:px-8 text-base sm:text-lg flex-1">
+        <div className="bg-[#bbf99c] font-poppins rounded-2xl py-6 px-6 sm:px-8 text-base sm:text-lg flex-1">
           <p>
             "The excellent voice recognition quality of AI Ally app makes it
             perfect for dictation and note taking. I have never come across such

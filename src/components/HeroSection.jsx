@@ -16,21 +16,23 @@ function HeroSection() {
         <div className="flex flex-col lg:flex-row custom-gradient-bg rounded-3xl shadow-lg text-white py-10 px-6 sm:px-12 lg:px-20 mt-8 gap-10">
           {/* Text Section */}
           <div className="flex-1 order-2 lg:order-1 text-center lg:text-left">
-            <h1 className="text-3xl  sm:text-4xl lg:text-5xl font-bold leading-tight">
-              Unleash the Full Potential of AI
+            <h1 className="text-3xl font-poppins sm:text-4xl lg:text-5xl font-bold leading-tight">
+              Unleash the full Potential of AI
             </h1>
-            <p className="mt-4 text-base sm:text-lg">
+            <p className="mt-4 font-poppins text-base sm:text-lg">
               AI Ally is a versatile assistant that utilizes state-of-the-art
               natural language processing to provide real-time support and
               assistance across various domains.
             </p>
 
             <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-6 mt-6">
-              <button className="flex items-center justify-center cursor-pointer gap-4 bg-[#66FF66] py-3 px-8 rounded-full text-black text-lg sm:text-xl">
+              <button className="flex items-center justify-center font-poppins cursor-pointer gap-4 bg-[#66FF66] py-3 px-8 rounded-full text-black text-lg sm:text-xl">
                 Get the App
                 <FontAwesomeIcon icon={faArrowRight} />
               </button>
-              <p className="text-lg sm:text-xl mt-2 sm:mt-0">More</p>
+              <p className=" font-poppins text-lg sm:text-xl mt-2 sm:mt-0">
+                More
+              </p>
             </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-10 mt-8">

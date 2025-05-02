@@ -111,7 +111,7 @@ function Footer() {
 
       {/* Desktop/tablet view: comparison table */}
       <div className="hidden sm:block mt-10 overflow-x-auto">
-        <div className="min-w-[700px] divide-y divide-[#333] text-white text-sm sm:text-base">
+        <div className="min-w-[700px] divide-y divide-[#1f1e1e] text-white text-sm sm:text-base">
           {[
             ["Number of Users", "1", "Up to 5", "Unlimited"],
             ["Customer Support", "Online", "Priority", "Premium"],

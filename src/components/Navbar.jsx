@@ -23,7 +23,9 @@ function Navbar() {
 
       {/* Centered Navigation Links - Desktop */}
       <div className="hidden md:flex flex-grow justify-center gap-8 font-bold items-center mx-4">
-        <p className="hover:text-[#babeba]  cursor-pointer">Home</p>
+        <p className="hover:text-[#babeba] font-poppins  cursor-pointer">
+          Home
+        </p>
         <HashLink
           to="#features"
           className="hover:text-[#babeba] font-poppins cursor-pointer"

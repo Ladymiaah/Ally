@@ -3,6 +3,7 @@
 
 
 
+
 .custom-hero-gradient {
     background: linear-gradient(163deg, rgba(134,239,172,1) 35%, rgba(255,255,255,1) 100%);
   }
@@ -12,5 +13,6 @@
 }
 
 .font-poppins {
-  font-family: 'poppins', sans-serif;
+  font-family: 'poppins', sans-serif,
+  
 }
